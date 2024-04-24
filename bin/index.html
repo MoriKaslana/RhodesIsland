@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale=1, shrink-to-fit="no">
+    <title>Rhodes Island </title>
+    <link rel="stylesheet" href="fonts/font-awesome.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/Exo2.css">
+    <link rel="stlesheet" href="CSS/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+
+</head>
+
+<body>
+    <!--Header-->
+    <header class="header fixed-top">
+        <a href="#" class="logo">
+            <h1>Rhodes Island</h1>
+        </a>
+
+        <div class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#sertive">sertive</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#profile">profile</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Header End-->
+    <!--Home-->
+    <section id="home" class="container-fluid home">
+
+        <div class="row align-items-center min-vh-100 min-vw-100">
+            <div class="col px-4 p-0 text-center text-md-left mx-auto">
+                    
+                <h2>Welcome</h2>
+                <h1>Rhodes Island is...<span class="typing-text"></span></h1>
+                <a href="#"><button>about Test</button></a>
+
+            </div>
+        </div>
+    </section>
+    
+
+    <!--Home End-->
+    <!--JS-->
+    <script src="JS/jquery.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="JS/main.js"></script>
+
+    <script>
+        var typed = new Typed('.typing-text ', {
+            // Waits 1000ms after typing "First"
+            strings: ['A home.', 'Our Savior.', 'A Sanctuary.'],
+            typeSpeed:120,
+            loop:true
+        });
+    </script>
+</body>
+
+</html>
